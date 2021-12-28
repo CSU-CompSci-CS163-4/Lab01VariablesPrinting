@@ -15,6 +15,8 @@ public class VariablesPrinting {
          * giving it the "mainVar" variable as the parameter.
          */
         Warmup(mainVar);
+        // Then we call the next method without a parameter.
+        Debug();
     }
     
     /**
@@ -35,9 +37,25 @@ public class VariablesPrinting {
         //Question 4: What is printed by the following line?
         System.out.println(x + y);
         //Question 5: What is printed by the following line?
-        System.out.println(x + ' ' + y);
+        System.out.println(x + " " + y);
 
-        //Question 6: In total, how many lines are printed?
-        //Question 7: In total, how many variables are used?
+        int z = y % x;
+        //Question 6: What is printed by the following line?
+        System.out.println(z);
+
+        //Question 7: In total, how many lines are printed?
+        //Question 8: In total, how many variables are used?
+    }
+
+    // Quetion 9: What syntatical errors are being made within this method?
+    public static void Debug() {
+        int a = 9;
+        int b = 12;
+
+        string word;
+        word = Debugging!
+
+        System.out.println(a);
+        System.out.println("We are " + word);
     }
 }

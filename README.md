@@ -119,3 +119,30 @@ You can also print content without using variables:
 ``` java
 System.out.println("This is a printed line!");
 ```
+
+#### Operations
+With the int type, we can perform a large number of operations on these types of variables.
+Say:
+``` java
+int a = 13;
+int b = 3;
+```
+We have two int types, and we can perform many operations on these two variables, such as addition, subtraction, division, multiplication, and modulo.
+``` java
+int c = a + b; // c now eqauls 16
+int d = a - b; // d now equals 10
+int e = a / b; // e now equals 4
+int f = a * b; // f now equals 39
+```
+The division operation only equals 4 as the decimal (.3333) is essentially chopped off due to int types only holding whole numbers.
+
+All of these examples so far should make some sense as they are operations we have worked with before.
+
+The odd operation out would be modulo, which is seldom used outside of Computer Science. Modulo is an incredible operation that finds the remainder of a division operation, but an example would best explain it.
+``` java
+int g = a % b; // g now equals 1
+/**
+ * 3 goes into 13 a total of 4 times, which leaves a remainder of 1, which is what the value of our modulo is.
+ */
+```
+If we had 51 and wanted 51 modulo 11, it would yield 6 as that is the remainder of 51 being wholly divisible by 11, 4 times. Leaving the remainder being 6.
