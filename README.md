@@ -1,0 +1,1 @@
+This is the public repository for CS163/4 labs. Each folder has one lab which consists of a skeleton, javadoc(generated from the solution), UML diagram, and writeup as the README.
