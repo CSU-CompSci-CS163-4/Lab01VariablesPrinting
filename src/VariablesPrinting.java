@@ -53,9 +53,9 @@ public class VariablesPrinting {
         int b = 12;
 
         string word;
-        word = Debugging!
+        word = Debugging!;
 
-        System.out.println(a);
-        System.out.println("We are " + word);
+        System.out.println(a)
+        System.out.println("We are " + word)
     }
 }
