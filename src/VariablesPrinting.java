@@ -1,4 +1,3 @@
-
 //Question 1: What is the class name?
 public class VariablesPrinting {
 

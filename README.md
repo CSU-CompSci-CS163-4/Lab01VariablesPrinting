@@ -1,20 +1,14 @@
----
-layout: page
-author: Ian Taylor
-summary: A page on the first lab, which consists of students analyzing Variables and Printing in context.
-title: Lab 01 - Variable and Printing
-categories: lab
-permalink: #TODO
----
-
-## Introduction
-Welcome to the first lab of your Introduction to Computer Science class! these labs will be integral to your learning of programming, being able to communicate with those around you and receiving feedback from your TA's is invaluable to furthering your understanding.
+# Introduction
+Welcome to the first lab of CS 163/4! these labs will be integral to your learning of programming, being able to communicate with those around you and receiving feedback from your TA's is invaluable to furthering your understanding.
 
 Tuesday labs will be structured to be a warmup or introduction to what you are currently learning. There will be reading and testing done in these labs to ensure you have a grasp on how mechanics work before applying them.
 Thursday labs will be where you apply and create concepts learned in lecture and your previous labs.
 Many labs will be built upon each other and will require you to fully complete a previous lab before continuing, so remember to stay up to date on lab content.
 
-#### Program Structuring
+## Steps for this lab
+For this lab, you will follow along the code given to you and answer questions outlined as comments. You may store these answers in a notebook or in a text editor to present to your TA for grading.
+
+## Program Structuring
 
 Each module of a program is self-contained within a **class**, so all programming must be within a class. The contents of a class are denoted with curly braces, "{ }", all contents of classes are contained within these braces.
 
@@ -37,7 +31,7 @@ public class ClassName {
 }
 ```
 
-#### Commenting your Program
+## Commenting your Program
 
 You may have noticed in the previous two examples the grey lines that began with a double slash, //.
 This is what is known as a comment, in no way will these affect how your program runs and are use by programmers to leave notes in their code. Commenting is an incredibly useful tool when you want to remind yourself how your program runs, or if someone looks at your code without you they can refer to comments to discern what your program is doing.
@@ -53,7 +47,7 @@ You can also use a multi line comment starting it with /**.
  ** 
 ```
 
-#### Variables
+## Variables
 
 Onto the topic of this lab, variables are a core of Java and programming as a whole. Variables allow you to store data for later and repeated use within your program.
 
@@ -88,7 +82,7 @@ String word = "Universe";
 ```
 Creating a String variable is slightly more intricate than creating an int variable, the **S** in **String** must be capitalized, and the variable value must be contained within quotation marks, like "Apple".
 
-#### Printing
+## Printing
 Now that we have created variables, it would be helpful to print them to the terminal.
 
 System.out.print() and System.out.println() are used to create output or print data to the terminal.
@@ -120,7 +114,7 @@ You can also print content without using variables:
 System.out.println("This is a printed line!");
 ```
 
-#### Operations
+## Operations
 With the int type, we can perform a large number of operations on these types of variables.
 Say:
 ``` java
