@@ -5,8 +5,10 @@ Tuesday labs will be structured to be a warmup or introduction to what you are c
 Thursday labs will be where you apply and create concepts learned in lecture and your previous labs.
 Many labs will be built upon each other and will require you to fully complete a previous lab before continuing, so remember to stay up to date on lab content.
 
+**Readings**: You need to have your readings DONE before coming to lab (and lecture). They are essential to understanding content. 
+
 ## Steps for this lab
-For this lab, you will follow along the code given to you and answer questions outlined as comments. You may store these answers in a notebook or in a text editor to present to your TA for grading.
+For this lab, you will follow along the code given to you and answer questions outlined as comments. Please write the answers to the questions as comments in the code provided. 
 
 ## Program Structuring
 
@@ -19,7 +21,7 @@ public class ClassName {
 }
 ```
 
-These classes may also have a unique portion of code known as a **main**, this is where programs are spurred up or started.
+These classes may also have a unique portion of code known as a **main**, this is where programs are spurred up or started. It is also called the entry point to your program / the first method called.
 
 Expanding upon the class example, a **main** within a class will look like:
 
@@ -140,3 +142,28 @@ int g = a % b; // g now equals 1
  */
 ```
 If we had 51 and wanted 51 modulo 11, it would yield 6 as that is the remainder of 51 being wholly divisible by 11, 4 times. Leaving the remainder being 6.
+
+Now, lets go onto the lab!
+
+## Step 1 - Self-explaination 
+There are a number of questions in the comments in the provideed *VariablesPrinting.java*. Take a moment to read through the code, and answer those questions. 
+
+Now before the warmup method, you will see a multi-line comment block. Write a paragraph explaining what WarmUp is doing. This is called self-explaination, and research shows just practicing this every lab will improve your understanding - even if what you write isn't correct! So take your best shot whenever you get a chance.
+
+## Step 2 - Debugging
+The purpose of the *debug()* method is to simply print out to the console:
+
+```
+We are debugging!
+```
+
+However, at this time the program doesn't even compile. Take a moment to get the program compiling, using the develop mode to submit and test. After the program is compiling, change Debugging to debugging - as case matters! 
+
+> Shoutout to Grace Hopper. She designed the first compiler, which is the foundation of taking english and converting into a language the machine can understand. What you just did today. Fun fact, she is often credited with coming up with the term debugging. The truth is that term existed before her, but she did pull a moth out of relays which was causing the program to miscalculate, tape it her coding notebook and write "the first actual case of a bug being found". [Learn more about Grace Hopper!](https://en.wikipedia.org/wiki/Grace_Hopper)
+![Bug Found](https://upload.wikimedia.org/wikipedia/commons/f/ff/First_Computer_Bug%2C_1945.jpg)
+
+
+## Turning In
+Turning in Tuesday labs will always have two parts. The first part will be simply to have the TA look over your comments and sign off that you commpleted the questions. CSU Online students, will copy their answers into a discussion post in canvas. 
+
+The second part is that you need to submit your code to the autograder. This is done by clicking the submit for grading button. 
