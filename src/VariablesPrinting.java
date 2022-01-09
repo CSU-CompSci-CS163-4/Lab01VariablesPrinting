@@ -13,11 +13,15 @@ public class VariablesPrinting {
          * Here we are calling the "Warmup" method below and
          * giving it the "mainVar" variable as the parameter.
          */
-        Warmup(mainVar);
+        warmup(mainVar);
         // Then we call the next method without a parameter.
-        Debug();
+        debug();
     }
-    
+ 
+    /** SELF EXPLANATION  
+     * Students, add your paragraph here for the end of Step 1. 
+     * 
+    */
     /**
      * Given that the "Warmup" method was called with "mainVar"
      * in the main method, the value of "mainVar" is now stored
@@ -25,7 +29,7 @@ public class VariablesPrinting {
      * Now "warmupVar" is practically equal to "mainVar", it's
      * name is the only thing changed.
      */
-    public static void Warmup(String warmupVar) {
+    public static void warmup(String warmupVar) {
         //Question 3: What is printed by the following two lines?
         //(Indicate where the newline is.)
         System.out.print("Java's creator is ");
@@ -46,8 +50,8 @@ public class VariablesPrinting {
         //Question 8: In total, how many variables are used?
     }
 
-    // Quetion 9: What syntatical errors are being made within this method?
-    public static void Debug() {
+    // Step 2 - fix the code, and get it running
+    public static void debug() {
         int a = 9;
         int b = 12;
 
