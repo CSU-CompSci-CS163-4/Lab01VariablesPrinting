@@ -7,8 +7,7 @@ Many labs will be built upon each other and will require you to fully complete a
 
 **Readings**: You need to have your readings DONE before coming to lab (and lecture). They are essential to understanding content. 
 
-## Steps for this lab
-For this lab, you will follow along the code given to you and answer questions outlined as comments. Please write the answers to the questions as comments in the code provided. 
+The instructions for this lab follow this explanation.
 
 ## Program Structuring
 
@@ -145,10 +144,10 @@ If we had 51 and wanted 51 modulo 11, it would yield 6 as that is the remainder 
 
 Now, lets go onto the lab!
 
-## Step 1 - Self-explaination 
-There are a number of questions in the comments in the provideed *VariablesPrinting.java*. Take a moment to read through the code, and answer those questions. 
+## Step 1 - Self-explanation 
+There are a number of questions in the comments in the provideed *VariablesPrinting.java*. Take a moment to read through the code, and answer those questions as comments within your program. 
 
-Now before the warmup method, you will see a multi-line comment block. Write a paragraph explaining what WarmUp is doing. This is called self-explaination, and research shows just practicing this every lab will improve your understanding - even if what you write isn't correct! So take your best shot whenever you get a chance.
+Now before the warmup method, you will see a multi-line comment block. Write a paragraph explaining what WarmUp is doing. This is called self-explanation, and research shows just practicing this every lab will improve your understanding - even if what you write isn't correct! So take your best shot whenever you get a chance.
 
 ## Step 2 - Debugging
 The purpose of the *debug()* method is to simply print out to the console:
