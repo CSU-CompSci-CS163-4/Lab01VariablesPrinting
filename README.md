@@ -38,19 +38,19 @@ You may have noticed in the previous two examples the grey lines that began with
 This is what is known as a comment, in no way will these affect how your program runs and are use by programmers to leave notes in their code. Commenting is an incredibly useful tool when you want to remind yourself how your program runs, or if someone looks at your code without you they can refer to comments to discern what your program is doing.
 
 The double slash, //, is a single line comment.
-You can also use a multi line comment starting it with /**.
+You can also use a multi-line comment starting it with "/*".
+These multi-line comments are then terminated by a following "*/" sequence.
 ``` java
-/**
- * A
- * multi-line
- * comment
- * How useful!
- ** 
+/*
+ * This is a multi-line comment.
+ * The * character at the beginning of the line is
+ * not required, but commonly used to indicated commented lines.
+ */
 ```
 
 ## Variables
 
-Onto the topic of this lab, variables are a core of Java and programming as a whole. Variables allow you to store data for later and repeated use within your program.
+Onto the topic of this lab, variables are a core of Java and programming as a whole. Variables allow you to store data for later and repeated use within your program. Each variable has a name associated with it, this allows users to give meaningful names to the associated data.
 
 There are two main parts of creating a variable, the declaration and initialization. The declaration is essentially creating your variable and reserving a spot for its data within the computers memory.
 
@@ -62,7 +62,7 @@ variableType variableName;
 ```
 variableName now has a reserved spot in the computer's memory.
 
-NOTE: Within the Java programming language, you must end each line with a semicolon, ;. Unless you are opening a class or method with curly braces, { & }, which we will go over later.
+NOTE: Within the Java programming language, you must end each statement with a semicolon, ;. Unless you are opening a class or method with curly braces, { & }, which we will go over later.
 
 Then you must initialize the created variable, variableName, to a value like so:
 ``` java
@@ -105,10 +105,12 @@ System.out.println(word);
 ```
 The output would be:
 ```
-42 //Newline character after the printed content.
-Universe //Newline character after the printed content.
-//A blank line here due to the previous newline.
+42
+Universe 
+
 ```
+
+Given that each **print** statement is followed by **ln**, the content of the statement is printed, it is followed by a "Newline" character
 
 You can also print content without using variables:
 ``` java
@@ -124,7 +126,7 @@ int b = 3;
 ```
 We have two int types, and we can perform many operations on these two variables, such as addition, subtraction, division, multiplication, and modulo.
 ``` java
-int c = a + b; // c now eqauls 16
+int c = a + b; // c now equals 16
 int d = a - b; // d now equals 10
 int e = a / b; // e now equals 4
 int f = a * b; // f now equals 39
@@ -136,11 +138,13 @@ All of these examples so far should make some sense as they are operations we ha
 The odd operation out would be modulo, which is seldom used outside of Computer Science. Modulo is an incredible operation that finds the remainder of a division operation, but an example would best explain it.
 ``` java
 int g = a % b; // g now equals 1
-/**
+/*
  * 3 goes into 13 a total of 4 times, which leaves a remainder of 1, which is what the value of our modulo is.
  */
 ```
 If we had 51 and wanted 51 modulo 11, it would yield 6 as that is the remainder of 51 being wholly divisible by 11, 4 times. Leaving the remainder being 6.
+
+Some applications of the modulo operator would be to find out if a given number is even/odd or perform an action every nth time. We will go deeper into this within a later lab!
 
 Now, lets go onto the lab!
 
