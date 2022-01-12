@@ -1,7 +1,7 @@
 //Question 1: What is the class name?
 public class VariablesPrinting {
 
-    /**
+    /*
      * Below this is the "main" method which is always called
      * first in program execution.
      */
@@ -9,7 +9,7 @@ public class VariablesPrinting {
         //Question 2: What is this variables name and value?
         String mainVar = "James Gosling";
 
-        /**
+        /*
          * Here we are calling the "Warmup" method below and
          * giving it the "mainVar" variable as the parameter.
          */
@@ -18,11 +18,11 @@ public class VariablesPrinting {
         debug();
     }
  
-    /** SELF EXPLANATION  
+    /* SELF EXPLANATION  
      * Students, add your paragraph here for the end of Step 1. 
      * 
     */
-    /**
+    /*
      * Given that the "Warmup" method was called with "mainVar"
      * in the main method, the value of "mainVar" is now stored
      * within the variable known as "warmupVar".
