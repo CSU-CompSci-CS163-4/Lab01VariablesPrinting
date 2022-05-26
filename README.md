@@ -37,7 +37,7 @@ public class ClassName {
 
 You may have noticed in the previous two examples the grey lines that began with a double slash, `//`. This is what is known as a comment. These will not affect how your program runs and are used by programmers to leave notes in their code. Commenting is an incredibly useful tool when you want to remind yourself how your program runs, or if someone looks at your code they can refer to comments to figure out what your program is doing.
 
-The double slash, `//`, is a single line comment.
+The double slash, `//`, is a single-line comment.
 You can also use a multi-line comment by starting it with `/*`.
 ``` java
 /*
@@ -55,7 +55,7 @@ Onto the topic of this lab, variables are a core of Java and programming as a wh
 
 There are two main parts of creating a variable: the declaration and initialization. The declaration is essentially creating your variable and reserving a spot for its data within the computer's memory.
 
-Before creating a variable it is good to know that there are multiple types of variables, the `int`, `String`, and `double` types are some of the most common. Each variable has only one type. For now we will only be working with `int`s and `String`s.
+Before creating a variable it is good to know that there are multiple types of variables, the `int`, `String`, and `double` types are some of the most common. Each variable has only one type. For now, we will only be working with `int`s and `String`s.
 
 To declare a variable, on a single line, you must specify its type and then its name, like so:
 ``` java
@@ -69,7 +69,7 @@ Then you must initialize the created variable, `variableName`, to a value like s
 ``` java
 variableName = variableValue; //Note the semicolon.
 ```
-The most common approach is combinining the declaration and initialization all onto one line:
+The most common approach is combining the declaration and initialization all onto one line:
 ``` java
 variableType variableName = variableValue;
 ```
@@ -139,14 +139,14 @@ int g = a % b; // g now equals 1
  * 3 goes into 13 a total of 4 times with a remainder of 1, which is what the value of our modulo is.
  */
 ```
-If we had 13 cookies and 4 people to distribute them to, we can easily see how many cookies are left over using the `modulo` operation. Modulo can also be used to find patterns, such as even/odd numbers or if if a particular number is divisible by another. 
+If we had 13 cookies and 4 people to distribute them to, we can easily see how many cookies are left over using the `modulo` operation. Modulo can also be used to find patterns, such as even/odd numbers or if a particular number is divisible by another. 
 
-Now, lets go onto the lab!
+Now, let's go onto the lab!
 
 ## Step 1 - Self-explanation 
 There are a number of questions in the comments in `VariablesPrinting.java`. Take a moment to read through the code, and answer those questions as comments within your program. 
 
-Now before the warmup method, you will see a multi-line comment block. Write a paragraph explaining what `WarmUp()` is doing. This is called self-explanation, and research shows just practicing this every lab will improve your understanding - even if what you write isn't correct! So take your best shot whenever you get a chance.
+Now before the warmup method, you will see a multi-line comment block. Write a paragraph explaining what `WarmUp()` is doing. This is called self-explanation, and research shows just practicing this in every lab will improve your understanding - even if what you write isn't correct! So take your best shot whenever you get a chance.
 
 ## Step 2 - Debugging
 The purpose of the `debug()` method is to simply print out to the console:
@@ -155,13 +155,13 @@ The purpose of the `debug()` method is to simply print out to the console:
 We are debugging!
 ```
 
-However, at this time the program doesn't even compile. Take a moment to get the program compiling, using the develop mode to submit and test. After the program is compiling, change Debugging to debugging - as case matters! 
+However, at this time the program doesn't even compile. Take a moment to get the program compiled, using the develop mode to submit and test. After the program is compiling, change Debugging to debugging - as case matters! 
 
-> Shoutout to Grace Hopper. She designed the first compiler, which is the foundation of taking english and converting it into a language the machine can understand. Fun fact, she is often credited with coming up with the term debugging. The truth is that this term existed before her, but she did pull a moth out of relays which was causing the program to miscalculate, tape it her coding notebook and write "the first actual case of a bug being found". [Learn more about Grace Hopper!](https://en.wikipedia.org/wiki/Grace_Hopper)
+> Shoutout to Grace Hopper. She designed the first compiler, which is the foundation of taking English and converting it into a language the machine can understand. Fun fact, she is often credited with coming up with the term debugging. The truth is that this term existed before her, but she did pull a moth out of relays which was causing the program to miscalculate, tape it in her coding notebook, and write "the first actual case of a bug being found". [Learn more about Grace Hopper!](https://en.wikipedia.org/wiki/Grace_Hopper)
 ![Bug Found](https://upload.wikimedia.org/wikipedia/commons/f/ff/First_Computer_Bug%2C_1945.jpg)
 
 
 ## Turning In
-Turning in Tuesday labs will always have two parts. The first part will be simply to have the TA look over your comments and sign off that you completed the questions. CSU Online students, will copy their answers into a discussion post in canvas. 
+Turning in Tuesday labs will always have two parts. The first part will be simply to have the TA look over your comments and sign off that you completed the questions. CSU Online students, will copy their answers into a discussion post in canvas. CSU Online summer students, although you won't submit your explanations to TAs or onto Canvas, it is still highly encouraged that you complete them to enhance your understanding of the code. 
 
 The second part is that you need to submit your code to the autograder. This is done by clicking the submit for grading button. 
