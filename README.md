@@ -162,6 +162,6 @@ However, at this time the program doesn't even compile. Take a moment to get the
 
 
 ## Turning In
-Turning in Tuesday labs will always have two parts. The first part will be simply to have the TA look over your comments and sign off that you completed the questions. CSU Online students, will copy their answers into a discussion post in canvas. CSU Online summer students, although you won't submit your explanations to TAs or onto Canvas, it is still highly encouraged that you complete them to enhance your understanding of the code. 
+Turning in Tuesday labs will always have two parts. The first part will be simply to have the TA look over your comments and sign off that you completed the questions.  CSU Online students, although you won't submit your explanations to TAs or onto Canvas, it is still highly encouraged that you complete them to enhance your understanding of the code. 
 
 The second part is that you need to submit your code to the autograder. This is done by clicking the submit for grading button. 
